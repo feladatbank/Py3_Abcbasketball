@@ -36,18 +36,3 @@ else:
 barca = [sor.hazai for sor in lista if "Barcelona" in sor.hazai][0]
 
 print(f"5. Feladat: barcelonai csapat neve: {barca}")
-
-
-
-#6
-
-meccsek = [sor for sor in lista if sor.idopont == "2004-11-21"]
-[print(f"         {sor.hazai} - {sor.idegen} ({sor.hazai_pont}:{sor.idegen_pont})") for sor in meccsek]
-
-
-#7
-'''
-print("7.Feladat: Statisztika")
-stat = [sor for sor in lista stat[sor.helyszin] = stat.get(sor.ev, 0) + 1]
-[for kulcs, ertek in stat.items() print(f"       {kulcs} - {ertek} ország")]
-'''    
