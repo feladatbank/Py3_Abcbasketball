@@ -26,8 +26,7 @@ print(f"3. Feladat: Real Madrid: Hazai: {len(madridh)}, Idegen: {len(madridi)}")
 #4
 
 dontettlen = [sor for sor in lista if sor.hazai_pont == sor.idegen_pont]
-ha_nem_dontettlen = [sor for sor in lista if sor.hazai_pont != sor.idegen_pont]
-if len(dontettlen) != 0:
+if len(dontettlen) == 0:
     print("4. Feladat: Volt döntettlen? Igen")
 else:
     print("4. Feladat: Volt döntettlen? Nem")
